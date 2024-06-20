@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.site-wrapper-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#ordersTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#ordersTable th, #ordersTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: #fff; /* Set text color to white */
+}
+
+#ordersTable th {
+    background-color: #5483e8;
+}
+
+button.update-status, button.delete-order {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff; /* Set text color to white */
+}
+
+button.update-status:hover, button.delete-order:hover {
+    background-color: #ddd;
+}
+
+button.btn-blue {
+    background-color: rgb(65, 65, 215);
+    margin: 5px 5px;
+}
+
+button.btn-green {
+    background-color: rgb(4, 81, 4);
+    margin: 5px 5px;
+}
+
+.header-right a{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+button.btn-red {
+    background-color: rgb(100, 5, 5);
+    margin: 5px 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.admin-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+.btn {
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.preparing {
+    background-color: blue;
+}
+
+.delivering {
+    background-color: green;
+}
+
+.completed {
+    background-color: red;
+}
